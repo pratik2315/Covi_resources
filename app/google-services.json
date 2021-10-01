@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "352578301512",
+    "project_id": "coviresource-e90e2",
+    "storage_bucket": "coviresource-e90e2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:352578301512:android:c5c8f287d576e4052c727d",
+        "android_client_info": {
+          "package_name": "com.example.coviresource"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "352578301512-bbpvbno5eeq3camjuf5i1jc78ndcle70.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQbWBelrms2Ae2a2l7TxwL7W1htzMjQIE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "352578301512-bbpvbno5eeq3camjuf5i1jc78ndcle70.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

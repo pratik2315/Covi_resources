@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">CoviResource</string>
+    <string-array name="resources">
+        <item>Oxygen 🏥</item>
+        <item>Ventilator 🛌</item>
+        <item>Food 🍞</item>
+        <item>Ambulance Services 🚑</item>
+    </string-array>
+
+</resources>
