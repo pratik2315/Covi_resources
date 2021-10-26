@@ -1,8 +1,6 @@
 package com.example.coviresource
 
 import android.Manifest
-import android.content.Intent
-import android.content.Intent.getIntent
 import android.content.pm.PackageManager
 import android.location.Location
 import androidx.fragment.app.Fragment
@@ -14,12 +12,10 @@ import android.view.ViewGroup
 import android.widget.Toast
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
-import com.example.coviresource.databinding.FragmentMapsBinding
 import com.google.android.gms.location.FusedLocationProviderClient
 import com.google.android.gms.location.LocationServices
 
 import com.google.android.gms.maps.CameraUpdateFactory
-import com.google.android.gms.maps.GoogleMap
 import com.google.android.gms.maps.OnMapReadyCallback
 import com.google.android.gms.maps.SupportMapFragment
 import com.google.android.gms.maps.model.BitmapDescriptorFactory
@@ -49,7 +45,7 @@ class MapsFragment : Fragment() {
 
             if (intent?.getStringExtra("Oxygen") == OXY_VALUE) {
                 val markerOptions = MarkerOptions().position(latlng).title("I have the oxygen")
-                    .icon(BitmapDescriptorFactory.fromResource(R.drawable.oxy))
+                    .icon(BitmapDescriptorFactory.fromResource(R.drawable.cylinder))
 
                 googleMap.animateCamera(CameraUpdateFactory.newLatLng(latlng))
                 googleMap.animateCamera(CameraUpdateFactory.newLatLngZoom(latlng, 15f))

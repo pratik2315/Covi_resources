@@ -1,5 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Pratik/AppData/Local/Android/Sdk/platforms/android-30/data/res/layout/simple_spinner_item.xml" value="0.2477355072463768" />
+        <entry key="..\:/Users/Pratik/Desktop/Astudio/Covi_resources-main/app/src/main/res/drawable/button_bg.xml" value="0.2703125" />
+        <entry key="..\:/Users/Pratik/Desktop/Astudio/Covi_resources-main/app/src/main/res/drawable/dropdownwhite.xml" value="0.2703125" />
+        <entry key="..\:/Users/Pratik/Desktop/Astudio/Covi_resources-main/app/src/main/res/drawable/edittext.xml" value="0.2703125" />
+        <entry key="..\:/Users/Pratik/Desktop/Astudio/Covi_resources-main/app/src/main/res/drawable/ic_abstract_envelope.xml" value="0.2703125" />
+        <entry key="..\:/Users/Pratik/Desktop/Astudio/Covi_resources-main/app/src/main/res/layout/activity_covid_tracker.xml" value="0.23867753623188406" />
+        <entry key="..\:/Users/Pratik/Desktop/Astudio/Covi_resources-main/app/src/main/res/layout/activity_login.xml" value="0.2296195652173913" />
+        <entry key="..\:/Users/Pratik/Desktop/Astudio/Covi_resources-main/app/src/main/res/layout/activity_register.xml" value="0.2296195652173913" />
+        <entry key="..\:/Users/Pratik/Desktop/Astudio/Covi_resources-main/app/src/main/res/layout/activity_select_option.xml" value="0.2477355072463768" />
+        <entry key="..\:/Users/Pratik/Desktop/Astudio/Covi_resources-main/app/src/main/res/layout/network_check_dialog.xml" value="0.23867753623188406" />
+        <entry key="..\:/Users/Pratik/Desktop/Astudio/Covi_resources-main/app/src/main/res/layout/spinner_item.xml" value="0.23867753623188406" />
+      </map>
+    </option>
+  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
