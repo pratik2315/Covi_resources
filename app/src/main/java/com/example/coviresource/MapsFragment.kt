@@ -45,7 +45,7 @@ class MapsFragment : Fragment() {
 
             if (intent?.getStringExtra("Oxygen") == OXY_VALUE) {
                 val markerOptions = MarkerOptions().position(latlng).title("I have the oxygen")
-                    .icon(BitmapDescriptorFactory.fromResource(R.drawable.cylinder))
+                    .icon(BitmapDescriptorFactory.fromResource(R.drawable.oxy))
 
                 googleMap.animateCamera(CameraUpdateFactory.newLatLng(latlng))
                 googleMap.animateCamera(CameraUpdateFactory.newLatLngZoom(latlng, 15f))

@@ -1,4 +1,4 @@
-package com.sitamadex11.CovidHelp.worker
+package com.example.coviresource
 
 import android.app.NotificationChannel
 import android.app.NotificationManager
@@ -16,8 +16,6 @@ import androidx.work.Worker
 import androidx.work.WorkerParameters
 import com.example.coviresource.CovidTrackerActivity
 import com.example.coviresource.R
-import com.sitamadex11.CovidHelp.covidTrackerApi.CovidData
-import com.sitamadex11.CovidHelp.util.ApiUtilities
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response

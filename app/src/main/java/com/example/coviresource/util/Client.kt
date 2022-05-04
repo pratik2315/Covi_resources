@@ -1,6 +1,5 @@
-package com.sitamadex11.CovidHelp.util
+package com.example.coviresource
 
-import com.sitamadex11.CovidHelp.interfaces.NetworkService
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 

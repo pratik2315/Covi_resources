@@ -25,6 +25,10 @@ class SelectOptionActivity : AppCompatActivity() {
         binding.bookVaccine.setOnClickListener{
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://selfregistration.cowin.gov.in/")))
         }
+
+        binding.btnRequest.setOnClickListener {
+            startActivity(Intent(this, HelplineActivity::class.java))
+        }
     }
 
 }

@@ -1,4 +1,4 @@
-package com.sitamadex11.CovidHelp.covidTrackerApi
+package com.example.coviresource
 
 import com.google.gson.annotations.SerializedName
 

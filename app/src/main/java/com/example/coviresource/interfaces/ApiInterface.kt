@@ -1,6 +1,5 @@
-package com.sitamadex11.CovidHelp.interfaces
+package com.example.coviresource
 
-import com.sitamadex11.CovidHelp.covidTrackerApi.CovidData
 import retrofit2.Call
 import retrofit2.http.GET
 

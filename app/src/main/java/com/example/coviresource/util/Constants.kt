@@ -1,4 +1,4 @@
-package com.sitamadex11.CovidHelp.util
+package com.example.coviresource
 
 class Constants {
     companion object {

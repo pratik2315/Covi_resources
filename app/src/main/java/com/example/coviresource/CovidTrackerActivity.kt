@@ -14,11 +14,6 @@ import androidx.work.NetworkType
 import androidx.work.OneTimeWorkRequestBuilder
 import androidx.work.WorkManager
 import com.google.android.material.button.MaterialButton
-import com.sitamadex11.CovidHelp.covidTrackerApi.CovidData
-import com.sitamadex11.CovidHelp.covidTrackerApi.Data
-import com.sitamadex11.CovidHelp.covidTrackerApi.Regional
-import com.sitamadex11.CovidHelp.util.ApiUtilities
-import com.sitamadex11.CovidHelp.worker.CovidTrackerWorker
 import org.eazegraph.lib.charts.BarChart
 import org.eazegraph.lib.charts.PieChart
 import org.eazegraph.lib.models.BarModel

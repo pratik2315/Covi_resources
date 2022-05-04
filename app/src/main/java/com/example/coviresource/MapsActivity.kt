@@ -11,16 +11,9 @@ class MapsActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityMapsBinding.inflate(layoutInflater)
         setContentView(binding.root)
-
-
-
-            val fragment = MapsFragment()
-            val transaction = supportFragmentManager.beginTransaction()
-            transaction.replace(R.id.container, fragment)
-            transaction.commit()
-
-
-
-
+        val fragment = MapsFragment()
+        val transaction = supportFragmentManager.beginTransaction()
+        transaction.replace(R.id.container, fragment)
+        transaction.commit()
     }
 }

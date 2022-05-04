@@ -1,4 +1,4 @@
-package com.sitamadex11.CovidHelp.interfaces
+package com.example.coviresource
 
 import com.example.coviresource.State
 import retrofit2.Response

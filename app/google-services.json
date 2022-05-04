@@ -1,33 +1,41 @@
 {
   "project_info": {
-    "project_number": "352578301512",
-    "project_id": "coviresource-e90e2",
-    "storage_bucket": "coviresource-e90e2.appspot.com"
+    "project_number": "1013131340395",
+    "project_id": "covi-resource-330508",
+    "storage_bucket": "covi-resource-330508.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:352578301512:android:c5c8f287d576e4052c727d",
+        "mobilesdk_app_id": "1:1013131340395:android:9713c51306aa30b0855f2e",
         "android_client_info": {
           "package_name": "com.example.coviresource"
         }
       },
       "oauth_client": [
         {
-          "client_id": "352578301512-bbpvbno5eeq3camjuf5i1jc78ndcle70.apps.googleusercontent.com",
+          "client_id": "1013131340395-9ubuspi5it67stdv7t80dklaa3cbg4re.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.coviresource",
+            "certificate_hash": "af081e57364881243b82681a29ef70d775b62ba2"
+          }
+        },
+        {
+          "client_id": "1013131340395-cp19l0f65jrb0f2vad1aliv1e5inrsnj.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAQbWBelrms2Ae2a2l7TxwL7W1htzMjQIE"
+          "current_key": "AIzaSyD0bh6nxZha-eyLFpWrapJgyUeSedCbxcA"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "352578301512-bbpvbno5eeq3camjuf5i1jc78ndcle70.apps.googleusercontent.com",
+              "client_id": "1013131340395-cp19l0f65jrb0f2vad1aliv1e5inrsnj.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

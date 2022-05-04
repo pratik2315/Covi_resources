@@ -1,4 +1,4 @@
-package com.sitamadex11.CovidHelp.covidTrackerApi
+package com.example.coviresource
 
 class Regional(
     var loc: String,
