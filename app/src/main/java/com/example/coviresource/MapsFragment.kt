@@ -73,7 +73,7 @@ class MapsFragment : Fragment() {
             if (intent?.getStringExtra("Amb") == AMB_VALUE) {
                 val markerOptions =
                     MarkerOptions().position(latlng).title("I have the ambulance services")
-                        .icon(BitmapDescriptorFactory.fromResource(R.drawable.ambulance))
+                        .icon(BitmapDescriptorFactory.fromResource(R.drawable.prtk))
 
                 googleMap.animateCamera(CameraUpdateFactory.newLatLng(latlng))
                 googleMap.animateCamera(CameraUpdateFactory.newLatLngZoom(latlng, 15f))
