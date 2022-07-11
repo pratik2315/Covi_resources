@@ -29,6 +29,14 @@ class SelectOptionActivity : AppCompatActivity() {
         binding.btnRequest.setOnClickListener {
             startActivity(Intent(this, HelplineActivity::class.java))
         }
+
+        binding.social.setOnClickListener {
+            startActivity(Intent(this, QRCodeActivity::class.java))
+        }
+
+        binding.feedSocial.setOnClickListener {
+            startActivity(Intent(this, FeedActivity::class.java))
+        }
     }
 
 }

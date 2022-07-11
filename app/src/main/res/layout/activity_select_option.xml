@@ -141,6 +141,70 @@
         >
 
         <com.google.android.material.card.MaterialCardView
+            android:id="@+id/feedSocial"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            app:cardCornerRadius="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="20dp"
+            app:cardElevation="5dp"
+            android:backgroundTint="#DA4CDA"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="30dp"
+                android:src="@drawable/feed"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Connect with Friends"
+                android:paddingLeft="35dp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:fontFamily="@font/poppins"
+                android:layout_gravity="center_horizontal"/>
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/social"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            app:cardCornerRadius="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="20dp"
+            app:cardElevation="5dp"
+            android:backgroundTint="#82AADC"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="10dp"
+                android:src="@drawable/qrcode"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Scan Barcodes"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:fontFamily="@font/poppins"
+                android:layout_gravity="center_horizontal"/>
+        </com.google.android.material.card.MaterialCardView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        >
+
+        <com.google.android.material.card.MaterialCardView
             android:id="@+id/otherServices"
             android:layout_width="150dp"
             android:layout_height="150dp"
@@ -189,71 +253,6 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Doctors!"
-                android:textColor="@color/white"
-                android:textStyle="bold"
-                android:fontFamily="@font/poppins"
-                android:layout_gravity="center_horizontal"/>
-        </com.google.android.material.card.MaterialCardView>
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:layout_marginStart="10dp"
-        android:layout_marginEnd="10dp"
-        >
-
-        <com.google.android.material.card.MaterialCardView
-            android:id="@+id/otherServices2"
-            android:layout_width="150dp"
-            android:layout_height="150dp"
-            app:cardCornerRadius="10dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginStart="20dp"
-            app:cardElevation="5dp"
-            android:backgroundTint="#DA4CDA"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent">
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:paddingTop="30dp"
-                android:src="@drawable/feed"/>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Connect with Friends"
-                android:paddingLeft="35dp"
-                android:textStyle="bold"
-                android:textColor="@color/white"
-                android:fontFamily="@font/poppins"
-                android:layout_gravity="center_horizontal"/>
-        </com.google.android.material.card.MaterialCardView>
-
-        <com.google.android.material.card.MaterialCardView
-            android:id="@+id/social"
-            android:layout_width="150dp"
-            android:layout_height="150dp"
-            app:cardCornerRadius="10dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginStart="20dp"
-            app:cardElevation="5dp"
-            android:backgroundTint="#82AADC"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent">
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:padding="10dp"
-                android:src="@drawable/qrcode"/>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Scan Barcodes"
                 android:textColor="@color/white"
                 android:textStyle="bold"
                 android:fontFamily="@font/poppins"

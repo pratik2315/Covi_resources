@@ -18,8 +18,8 @@ class SawoActivity : AppCompatActivity() {
         binding.loginButton.setOnClickListener {
             Sawo(
                 this,
-                "487545eb-d216-47e9-b521-0c5e6f293158", // your api key
-                "627282bd55b79ad3d7849fb921EKfvx0r8xwWj4BnX5E1eYH"  // your api key secret
+                "f4374e51-52d0-4b64-8797-106293ddb147", // your api key
+                "62734f49fdd1e393cf83703bmQvbyM6S7lhyQrK9oBMlR7VN"  // your api key secret
             ).login(
                 "email", // can be one of 'email' or 'phone_number_sms' or 'both_email_phone'
                 SelectOptionActivity::class.java.name // Callback class name

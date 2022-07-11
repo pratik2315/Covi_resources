@@ -4,6 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Pratik/AppData/Local/Android/Sdk/platforms/android-30/data/res/layout/simple_spinner_item.xml" value="0.2477355072463768" />
+        <entry key="..\:/Users/Pratik/AppData/Local/Android/Sdk/platforms/android-31/data/res/layout/simple_spinner_item.xml" value="0.25" />
         <entry key="..\:/Users/Pratik/Desktop/Astudio/Covi_resources-main/app/src/main/res/drawable/button_bg.xml" value="0.2703125" />
         <entry key="..\:/Users/Pratik/Desktop/Astudio/Covi_resources-main/app/src/main/res/drawable/dropdownwhite.xml" value="0.2703125" />
         <entry key="..\:/Users/Pratik/Desktop/Astudio/Covi_resources-main/app/src/main/res/drawable/edittext.xml" value="0.2703125" />
@@ -19,9 +20,11 @@
         <entry key="..\:/Users/Pratik/Desktop/Astudio/Covi_resources-main/app/src/main/res/layout/fragment_maps.xml" value="0.25" />
         <entry key="..\:/Users/Pratik/Desktop/Astudio/Covi_resources-main/app/src/main/res/layout/network_check_dialog.xml" value="0.23867753623188406" />
         <entry key="..\:/Users/Pratik/Desktop/Astudio/Covi_resources-main/app/src/main/res/layout/spinner_item.xml" value="0.23867753623188406" />
+        <entry key="..\:/Users/Pratik/Desktop/Covi_resources/app/src/main/res/layout/activity_feed.xml" value="0.25" />
         <entry key="..\:/Users/Pratik/Desktop/Covi_resources/app/src/main/res/layout/activity_helpline.xml" value="0.25" />
         <entry key="..\:/Users/Pratik/Desktop/Covi_resources/app/src/main/res/layout/activity_home.xml" value="0.2359375" />
         <entry key="..\:/Users/Pratik/Desktop/Covi_resources/app/src/main/res/layout/activity_login.xml" value="0.17135416666666667" />
+        <entry key="..\:/Users/Pratik/Desktop/Covi_resources/app/src/main/res/layout/activity_qrcode.xml" value="0.25" />
         <entry key="..\:/Users/Pratik/Desktop/Covi_resources/app/src/main/res/layout/activity_sawo.xml" value="0.25" />
         <entry key="..\:/Users/Pratik/Desktop/Covi_resources/app/src/main/res/layout/activity_select_item.xml" value="0.12708333333333333" />
         <entry key="..\:/Users/Pratik/Desktop/Covi_resources/app/src/main/res/layout/activity_select_option.xml" value="0.25" />
